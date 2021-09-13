@@ -45,7 +45,7 @@ void computeCoin(int coinValue, int& number, int& amountLeft) {
 void printOutput(int coinValue, int number) {
 	cout << number;
 	switch(coinValue) {
-		case 25:
+	case 25:
             computeCoin(25,number,amountLeft);
         case 10:
             computeCoin(10,number,amountLeft);
